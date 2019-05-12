@@ -1,0 +1,7 @@
+div.card-image {
+    width: 390px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    background-color: rgb(190, 199, 107);
+    }
+    div.card-image img { max-width: 100%; }

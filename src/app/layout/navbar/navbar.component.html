@@ -2,16 +2,30 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper" style="background-color: rgb(201, 118, 11)">
+          
+          
         <div class="container">
-          <a routerLink="/">Inicio</a>
-          <a data-target="mobile-menu" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
+          <ul class="left hide-on-med-and-down">
+            <a routerLink="/">Inicio</a>
+            <a data-target="mobile-menu" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+          </ul>
+          
           <ul class="right hide-on-med-and-down">
             <li>
-              <a routerLink="/store">Tienda</a>
+            <a routerLink="/store">Iniciar Sesión</a>
             </li>
           </ul>
+          <a class="row col  s7  push-s2 ">
+            
+              <i class="input-field col  s7  push-s2 background-color #ffe0b2 orange lighten-4">
+                <i class="material-icons prefix ">search</i>
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">Buscar</label>
+              
+              </i>
+            </a>
         </div>
       </div>
     </nav>
