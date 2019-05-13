@@ -14,6 +14,7 @@ import { environment } from 'src/environments/environment';
   AngularFirestoreModule,
     AppRoutingModule, LayoutModule],
   bootstrap: [AppComponent]
+  
 
 })
 export class AppModule {}

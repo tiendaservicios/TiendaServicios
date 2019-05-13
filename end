@@ -1,0 +1,23 @@
+[33mcommit 47c0376f3a74165e9f2d097b41d646b75596dff6[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/catalog[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: Mauricio Arce <mauricio.arce.mat@gmail.com>
+Date:   Wed Apr 24 11:26:50 2019 -0400
+
+    CI workflow
+
+[33mcommit 4b2d7fdf614eee28aa0c84d01e6887581331aaf7[m
+Author: Mauricio Arce <mauricio.arce.mat@gmail.com>
+Date:   Wed Apr 24 11:23:15 2019 -0400
+
+    Continuous integration configuration
+
+[33mcommit d66448a7777f48490b983365d47673bcc7398c52[m
+Author: Mauricio Arce <mauricio.arce.mat@gmail.com>
+Date:   Wed Apr 24 10:26:46 2019 -0400
+
+    Initial layout
+
+[33mcommit 5cb080c40fcaf978c6e501c9c28298238b16a30a[m
+Author: Mauricio Arce <Mauricio.Arce@communitybrands.com>
+Date:   Wed Apr 24 09:21:36 2019 -0400
+
+    initial commit

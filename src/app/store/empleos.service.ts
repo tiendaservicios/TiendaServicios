@@ -13,5 +13,6 @@ export class EmpleosService {
 
   getEmpleo(): Observable<Empleo[]> {
     return this.db.collection<Empleo>('empleos').valueChanges();
+   
   }
 }
