@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { environment } from 'src/environments/environment';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [BrowserModule, AngularFireModule.initializeApp(environment.firebase),
   AngularFirestoreModule,
     AppRoutingModule, LayoutModule],

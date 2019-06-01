@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Empleo } from 'src/app/shared/models/empleo';
-import { EmpleosService } from './store/empleos.service';
+
 
 @Component({
   selector: 'iso-root',
@@ -9,13 +7,13 @@ import { EmpleosService } from './store/empleos.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  empleos$: Observable<Empleo[]>;
+  
   
 
-  constructor(private empleosService: EmpleosService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.empleos$ = this.empleosService.getEmpleo();
+  ngOnInit() {
+    
     
     
   }

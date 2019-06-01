@@ -1,0 +1,15 @@
+div.card-image {
+    width: 30%;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    background-color: rgb(190, 199, 107);
+    }
+    div.card-image img { max-width: 100%; }
+
+div.card-image-r {
+        width: 270px;
+        margin: 0 auto 0 auto;
+        padding: 5px;
+        background-color: rgb(190, 199, 107);
+        }
+    div.card-image-r img { max-width: 100%; }

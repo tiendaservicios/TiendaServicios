@@ -1,31 +1,35 @@
 <header>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed" >
+      <div class="navbar-brand small" style="background-color: rgb(201, 118, 11)">
+      
+    </div>
     <nav>
+        
+           
+        
       <div class="nav-wrapper" style="background-color: rgb(201, 118, 11)">
-          
-          
+        <a data-target="mobile-menu" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+       </a>
+       <img src="assets/images/store/logos.png" width="280" height="65" class="hide-on-small-and-down">
+       <img src="assets/images/store/logos.png" width="200" height="50" class="hide-on-med-and-up">
         <div class="container">
+            
           <ul class="left hide-on-med-and-down">
             <a routerLink="/">Inicio</a>
-            <a data-target="mobile-menu" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-            </a>
           </ul>
-          
           <ul class="right hide-on-med-and-down">
             <li>
             <a routerLink="/store">Iniciar Sesión</a>
             </li>
           </ul>
-          <a class="row col  s7  push-s2 ">
-            
-              <i class="input-field col  s7  push-s2 background-color #ffe0b2 orange lighten-4">
+          <a class="row col  s7  push-s2 hide-on-med-and-down ">
+              <i class="input-field col  s7  push-s2 background-color #ffe0b2 orange lighten-4 ">
                 <i class="material-icons prefix ">search</i>
                 <input type="text" id="autocomplete-input" class="autocomplete">
                 <label for="autocomplete-input">Buscar</label>
-              
               </i>
-            </a>
+          </a>
         </div>
       </div>
     </nav>
@@ -33,7 +37,7 @@
 
   <ul isoSidenav class="sidenav" id="mobile-menu">
     <li>
-      <a routerLink="/store" class="sidenav-close">Tienda</a>
+      <a routerLink="/" class="sidenav-close">Tienda</a>
     </li>
   </ul>
 </header>

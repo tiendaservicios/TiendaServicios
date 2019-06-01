@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   selector: 'iso-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
+  
 })
 export class NavbarComponent {}
